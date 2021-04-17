@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: "http://manthanguru-node-app.herokuapp.com",
+  origin: "http://manthanguru.com",
 };
 
 app.use(cors(corsOptions));
