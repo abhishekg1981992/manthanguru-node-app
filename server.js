@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to movie application. 1.0" });
+  res.json({ message: "Welcome to movie application. 1.1" });
 });
 
 require("./app/routes/turorial.routes")(app);
